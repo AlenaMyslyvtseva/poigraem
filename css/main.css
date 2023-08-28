@@ -1,0 +1,48 @@
+:root {
+    --color-primary: #212121;
+    --color-secondary: #757575;
+    --color-brand: #bff6c7;
+    --color-border: rgb(147, 238, 147);
+    --color-invert: #e6ef5c;
+    --color-accent: #2F303A;
+    --color-action: #188CE8;
+    --color-button-filter: #F5F4FA;
+}
+
+body {
+    background-color: var(--color-brand);
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-primary);
+    font-style: normal;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.e {
+    width: 300px;
+    border-radius: 48px;
+    border: 5px var(--color-border) solid;
+}
+
+.button {
+    width: calc(25% - 26px * 3 / 4);
+    margin-bottom: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 48px;
+    padding: 0;
+}
+
+.button-image {
+    width: 100%;
+    border-radius: 48px;
+}
+

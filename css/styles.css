@@ -1,0 +1,118 @@
+:root {
+    --color-primary: #212121;
+    --color-secondary: #757575;
+    --color-brand: #bff6c7;
+    --color-border: rgb(147, 238, 147);
+    --color-invert: #e6ef5c;
+    --color-accent: #2F303A;
+    --color-action: #188CE8;
+    --color-fon-slip: #5b82cf;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-primary); font-style: normal;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+
+
+.wrapper-brand {
+    background-color: var(--color-brand);
+    
+}
+
+.wrapper-slip {
+    background-color: var(--color-fon-slip);
+
+}
+
+.container__audio {
+    display: block;
+    padding-left: 20px;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0, auto;
+    max-width: 100%;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+.container-poem {
+    
+    height: 650px;
+    width: 520px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0, auto;
+    border: 5px var(--color-border) solid;
+    padding-top: 120px;
+    border-radius: 48px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.im1 {
+    background-image: url("../img/9.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 80%;
+}
+
+.im2 {
+    background-image: url("../img/10.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 80%;
+}
+
+.im3 {
+    background-image: url("../img/11.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 80%;
+}
+
+.img1 {
+    background-image: url("../img/4.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 80%;
+}
+
+.img2 {
+    background-image: url("../img/slipbaby.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 80%;
+}
+
+.img3 {
+    background-image: url("../img/slipm.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 80%;
+}
